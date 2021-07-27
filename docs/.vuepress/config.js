@@ -20,7 +20,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1,    // optional, defaults to 1
                         children: [
-                          '/tutorials/basic/'
+                            '/tutorials/basic/'
                         ]
                     }
                 ]
@@ -33,7 +33,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1,    // optional, defaults to 1
                         children: [
-                          '/cz/tutorials/basic/'
+                            '/cz/tutorials/basic/'
                         ]
                     }
                 ]
@@ -73,6 +73,7 @@ module.exports = {
                     }
                 }
             }
-        ]
+        ],
+        'code-copy'
     ]
 };
