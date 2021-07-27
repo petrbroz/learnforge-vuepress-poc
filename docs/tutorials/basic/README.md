@@ -2,7 +2,7 @@
 
 [[toc]]
 
-![Demo Preview](/media/basic-preview.gif)
+<img :src="$withBase('/media/basic-preview.gif')" alt="App preview">
 
 ## Code snippets
 
