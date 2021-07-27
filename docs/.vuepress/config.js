@@ -10,39 +10,18 @@ module.exports = {
         repo: 'https://github.com/petrbroz/learnforge-vuepress-poc',
         docsBranch: 'develop',
         docsDir: 'docs',
+        displayAllHeaders: true,
         locales: {
             '/': {
                 sidebar: [
-                    {
-                        text: 'Home',
-                        link: '/'
-                    },
-                    {
-                        text: 'Tutorials',
-                        children: [
-                            {
-                                text: 'Basic',
-                                link: '/tutorials/basic'
-                            }
-                        ]
-                    }
+                    '/',
+                    '/tutorials/basic/'
                 ]
             },
             '/cz/': {
                 sidebar: [
-                    {
-                        text: 'Úvod',
-                        link: '/cz'
-                    },
-                    {
-                        text: 'Tutoriály',
-                        children: [
-                            {
-                                text: 'Základní',
-                                link: '/cz/tutorials/basic'
-                            }
-                        ]
-                    }
+                    '/cz/',
+                    '/cz/tutorials/basic/'
                 ]
             }
         }
@@ -62,7 +41,7 @@ module.exports = {
             description: 'Experimental docs with Autodesk Forge tutorials.',
         },
         '/cz/': {
-            lang: 'Czech',
+            lang: 'cz-CS',
             title: 'Ahoj Forge!',
             description: 'Experimentální dokumentace s návody pro Autodesk Forge.',
         }
@@ -80,8 +59,6 @@ module.exports = {
                     }
                 }
             }
-        ],
-        '@vuepress/plugin-debug',
-        '@vuepress/plugin-git'
+        ]
     ]
 };
