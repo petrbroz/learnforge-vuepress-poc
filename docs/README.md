@@ -32,15 +32,4 @@ This is a details block
 
 ### Code Groups
 
-:::: code-group
-::: code-group-item FOO
-```js
-const foo = 'foo'
-```
-:::
-::: code-group-item BAR
-```js
-const bar = 'bar'
-```
-:::
-::::
+Only supported in v2...

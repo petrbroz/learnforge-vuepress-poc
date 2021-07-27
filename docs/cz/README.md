@@ -32,15 +32,4 @@ Toto je blok s detaily
 
 ### Skupiny kódu
 
-:::: code-group
-::: code-group-item FOO
-```js
-const foo = 'foo'
-```
-:::
-::: code-group-item BAR
-```js
-const bar = 'bar'
-```
-:::
-::::
+Podporované pouze ve verzi v2...
