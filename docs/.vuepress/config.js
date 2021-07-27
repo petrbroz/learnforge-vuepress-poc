@@ -15,13 +15,27 @@ module.exports = {
             '/': {
                 sidebar: [
                     '/',
-                    '/tutorials/basic/'
+                    {
+                        title: 'Tutorials',
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1,    // optional, defaults to 1
+                        children: [
+                          '/tutorials/basic/'
+                        ]
+                    }
                 ]
             },
             '/cz/': {
                 sidebar: [
                     '/cz/',
-                    '/cz/tutorials/basic/'
+                    {
+                        title: 'Tutoriály',
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1,    // optional, defaults to 1
+                        children: [
+                          '/cz/tutorials/basic/'
+                        ]
+                    }
                 ]
             }
         }
