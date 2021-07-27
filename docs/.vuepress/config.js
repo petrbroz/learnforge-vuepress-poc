@@ -74,7 +74,8 @@ module.exports = {
                 }
             }
         ],
-        'code-copy'
+        'code-copy',
+        'code-switcher'
     ],
     markdown: {
         extendMarkdown: md => {

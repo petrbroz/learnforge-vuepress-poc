@@ -10,6 +10,7 @@
     "@vuepress/plugin-search": "^1.8.2",
     "markdown-it-abbr": "^1.0.4",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-code-switcher": "^1.1.0"
   }
 }

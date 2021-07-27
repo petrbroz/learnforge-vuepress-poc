@@ -30,9 +30,28 @@ Tohle je nebezpečné varování
 Toto je blok s detaily
 :::
 
-### Skupiny kódu
+### Varianty kódu
 
-Podporované pouze ve verzi v2...
+<CodeSwitcher :languages="{js:'JavaScript',ts:'TypeScript'}">
+<template v-slot:js>
+
+```js
+module.exports = function (str) {
+    return typeof str === 'string' && str.trim() === str
+}
+```
+
+</template>
+<template v-slot:ts>
+
+```ts
+export default function isString (str: string) : str is string {
+    return typeof str === 'string' && str.trim() === str
+}
+```
+
+</template>
+</CodeSwitcher>
 
 ### Zkratky
 
