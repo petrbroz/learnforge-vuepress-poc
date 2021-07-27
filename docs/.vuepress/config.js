@@ -7,6 +7,9 @@ module.exports = {
     description: 'Experimental docs with Autodesk Forge tutorials.',
     themeConfig: {
         logo: 'https://avatars.githubusercontent.com/u/16883010?s=200&v=4',
+        repo: 'https://github.com/petrbroz/learnforge-vuepress-poc',
+        docsBranch: 'develop',
+        docsDir: 'docs',
         locales: {
             '/': {
                 sidebar: [
