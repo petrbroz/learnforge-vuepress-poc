@@ -445,7 +445,7 @@
     vue "^3.1.4"
     vue-router "^4.0.10"
 
-"@vuepress/plugin-git@2.0.0-beta.22":
+"@vuepress/plugin-git@2.0.0-beta.22", "@vuepress/plugin-git@^2.0.0-beta.22":
   version "2.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-git/-/plugin-git-2.0.0-beta.22.tgz#634638b49aa6d11443dcad2eba5ba4ba73d288c2"
   integrity sha512-VKFvNUgwOQ2Erpdis5Dx0NFcQFSHrOjKmMtKH+pyFQiCUf2sxPoq2jcigsfpUTk3owDbmfeZ2PXiKlA7qBsing==

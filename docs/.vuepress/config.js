@@ -78,6 +78,7 @@ module.exports = {
                 }
             }
         ],
-        '@vuepress/plugin-debug'
+        '@vuepress/plugin-debug',
+        '@vuepress/plugin-git'
     ]
 };
