@@ -20,7 +20,7 @@ function sayHello(name) {
 
 Here's an imported code snippet
 
-@[code](@snippets/basic/app.js)
+<<< @/docs/_snippets/basic/app.js
 
 ## Tables
 

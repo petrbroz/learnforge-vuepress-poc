@@ -20,7 +20,7 @@ function sayHello(name) {
 
 Zde je importovaná ukázka kódu:
 
-@[code](@snippets/basic/app.js)
+<<< @/docs/_snippets/basic/app.js
 
 ## Tabulky
 
