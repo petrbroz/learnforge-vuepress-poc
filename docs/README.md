@@ -33,3 +33,10 @@ This is a details block
 ### Code Groups
 
 Only supported in v2...
+
+### Abbreviations
+
+In our tutorials we use plain HTML, CSS, and JavaScript.
+
+*[HTML]: Hyper Text Markup Language
+*[CSS]: Cascading Style Sheets

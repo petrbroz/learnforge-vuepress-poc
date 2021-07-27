@@ -33,3 +33,10 @@ Toto je blok s detaily
 ### Skupiny kódu
 
 Podporované pouze ve verzi v2...
+
+### Zkratky
+
+V našich tutoriálech používáme klasické HTML, CSS, and JavaScript.
+
+*[HTML]: Hyper Text Markup Language
+*[CSS]: Cascading Style Sheets

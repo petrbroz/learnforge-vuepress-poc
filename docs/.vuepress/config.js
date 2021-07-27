@@ -75,5 +75,10 @@ module.exports = {
             }
         ],
         'code-copy'
-    ]
+    ],
+    markdown: {
+        extendMarkdown: md => {
+            md.use(require('markdown-it-abbr'))
+        }
+    }
 };
